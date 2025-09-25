@@ -1,0 +1,31 @@
+{
+  "name": "quran-api-backend",
+  "version": "1.0.0",
+  "description": "A Node.js backend for Al-Quran Cloud API with search, audio, caching, and rate limiting",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "quran",
+    "islam",
+    "api",
+    "alquran",
+    "express"
+  ],
+  "author": "Md. Latiful Kabir",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

@@ -17,7 +17,7 @@ const options = {
     servers: [
       { url: "http://localhost:5000/api/quran", description: "Local" },
       {
-        url: "https://quran-api-backend-j06f.onrender.com",
+        url: "https://quran-api-backend-j06f.onrender.com/api/quran",
         description: "Production",
       },
     ],
